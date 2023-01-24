@@ -1,0 +1,73 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 30px;
+}
+.search {
+	width: 500px;
+}
+.search__inp {
+	width: 100%;
+	height: 60px;
+	font-size: 25px;
+	outline: none;
+	border: none;
+  border-radius: 5px 5px 0 0;
+	padding: 0 10px;
+}
+.autocom-box {
+  display: none;
+	height: 200px;
+	overflow: hidden;
+  border-radius: 0 0 5px 5px;
+}
+.show{
+  display: block;
+}
+.autocom-item {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	border-bottom: 1px solid lightgray;
+	list-style: none;
+	padding: 0 10px;
+	background: #e3e3e3;
+	font-size: 20px;
+}
+.autocom-item:hover {
+	background-color: #a7b8e2;
+	cursor: pointer;
+}
+.repositories {
+	margin: 45px;
+	width: 500px;
+}
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #e27beb;
+	padding: 10px 25px 10px 10px;
+	margin-bottom: 10px;
+}
+.btn-delete {
+	background: none;
+	border: none;
+	width: 42px;
+	height: 42px;
+	cursor: pointer;
+}
+.btn-delete img {
+	width: 100%;
+	height: 100%;
+}
